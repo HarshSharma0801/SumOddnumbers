@@ -1,7 +1,7 @@
 public class SumOddRange {
     public static void main(String[] args) {
         System.out.println("sum is equal to "+ sumOdd(1,100));
-
+        System.out.println( isOdd(5)+" - that's the statement ");
     }
     public static boolean isOdd(int number){
         if (number>0){
